@@ -9,7 +9,7 @@ In order to run the code you'll need some libraries. You can run:
 "pip install mglearn"
 in your terminal to set up the necessary requirements.
 
-To see the tree.dot document generated in project/erythemato_squamous_analysis.ipynb it is necessary to do:  
+To see the tree.dot documents generated in project/erythemato_squamous_analysis.ipynb it is necessary to do:  
 "pip install graphviz"  
 "sudo apt-get install graphviz"
 
