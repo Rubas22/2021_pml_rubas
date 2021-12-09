@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="clubbing of the rete ridges <= 0.5\nsamples = 267\nvalue = [84, 46, 54, 33, 38, 12]\nclass = psoriasis", fillcolor="#fbede3"] ;
+1 [label="vacuolisation and damage of basal layer <= 0.5\nsamples = 184\nvalue = [2, 46, 54, 33, 38, 11]\nclass = lichen planus", fillcolor="#f4fdf8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="fibrosis of the papillary dermis <= 0.5\nsamples = 131\nvalue = [2, 46, 1, 33, 38, 11]\nclass = seboreic dermatitis", fillcolor="#f7fdee"] ;
+1 -> 2 ;
+3 [label="koebner phenomenon <= 0.5\nsamples = 92\nvalue = [2, 46, 0, 33, 0, 11]\nclass = seboreic dermatitis", fillcolor="#e9f9d3"] ;
+2 -> 3 ;
+4 [label="follicular papules <= 1.5\nsamples = 65\nvalue = [2, 46, 0, 6, 0, 11]\nclass = seboreic dermatitis", fillcolor="#bfee7f"] ;
+3 -> 4 ;
+5 [label="disappearance of the granular layer <= 0.5\nsamples = 55\nvalue = [2, 46, 0, 6, 0, 1]\nclass = seboreic dermatitis", fillcolor="#afea5d"] ;
+4 -> 5 ;
+6 [label="samples = 51\nvalue = [2, 46, 0, 2, 0, 1]\nclass = seboreic dermatitis", fillcolor="#a7e84d"] ;
+5 -> 6 ;
+7 [label="samples = 4\nvalue = [0, 0, 0, 4, 0, 0]\nclass = pityriasis rosea", fillcolor="#399de5"] ;
+5 -> 7 ;
+8 [label="samples = 10\nvalue = [0, 0, 0, 0, 0, 10]\nclass = pityriasis rubra pilaris", fillcolor="#e5399d"] ;
+4 -> 8 ;
+9 [label="samples = 27\nvalue = [0, 0, 0, 27, 0, 0]\nclass = pityriasis rosea", fillcolor="#399de5"] ;
+3 -> 9 ;
+10 [label="disappearance of the granular layer <= 1.0\nsamples = 39\nvalue = [0, 0, 1, 0, 38, 0]\nclass = cronic dermatitis", fillcolor="#843ee6"] ;
+2 -> 10 ;
+11 [label="samples = 38\nvalue = [0, 0, 0, 0, 38, 0]\nclass = cronic dermatitis", fillcolor="#8139e5"] ;
+10 -> 11 ;
+12 [label="samples = 1\nvalue = [0, 0, 1, 0, 0, 0]\nclass = lichen planus", fillcolor="#39e581"] ;
+10 -> 12 ;
+13 [label="samples = 53\nvalue = [0, 0, 53, 0, 0, 0]\nclass = lichen planus", fillcolor="#39e581"] ;
+1 -> 13 ;
+14 [label="follicular horn plug <= 1.0\nsamples = 83\nvalue = [82, 0, 0, 0, 0, 1]\nclass = psoriasis", fillcolor="#e5833b"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+15 [label="samples = 82\nvalue = [82, 0, 0, 0, 0, 0]\nclass = psoriasis", fillcolor="#e58139"] ;
+14 -> 15 ;
+16 [label="samples = 1\nvalue = [0, 0, 0, 0, 0, 1]\nclass = pityriasis rubra pilaris", fillcolor="#e5399d"] ;
+14 -> 16 ;
+}
