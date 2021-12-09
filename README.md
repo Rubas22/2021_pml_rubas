@@ -5,7 +5,7 @@ All progress is going to be saved here.
 For this course, we follow the book: C. Muller, Andreas and Guido, Sarah. "Introduction to Machine Learning with Python". United States of America., O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472., October 2016.
 
 In order to run the code you'll need some libraries. You can run:  
-"pip install numpy scipy matplotlib ipython scikit-learn pandas"  
+` pip install numpy scipy matplotlib ipython scikit-learn pandas`   
 "pip install mglearn"
 in your terminal to set up the necessary requirements.
 
