@@ -1,6 +1,5 @@
 # 2021_pml_rubas
-This is my repo for the course ML at CCM UNAM  
-All progress is going to be saved here.
+This is my repo for the course ML at CCM UNAM.
 
 For this course, we follow the book: C. Muller, Andreas and Guido, Sarah. "Introduction to Machine Learning with Python". United States of America., O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472., October 2016.
 
@@ -19,6 +18,7 @@ Inside python-novice-gapminder-data folder you'll find exercices that correspond
 
 Inside homework folder there are two files with my solutions to homework.
 
-In expo folder there is the slices with the topic I presented as part of the course.
+In expo folder there are two presentations. One of them has the slices with the topic I presented as part of the course and the other is the presentation of my final project.
 
-As final project, a dataset is analyzed with various classifiers. Such dataset contains records on patients with one out of six skin diseases; for more details pleas read /project/data/dermatology.names. The goal is to compare different models which aim to diagnose the type of Eryhemato-Squamous. Eight of the records were omitted in the .csv file since they lack the "age" field. The original dataset was gotten from "https://archive.ics.uci.edu/ml/datasets/Dermatology" and I included a paper where you can see how this dataset was originally used. 
+As final project I implemented decision trees algorithms. The aim was to get a playable model to diagnose erythemato-squamous diseases (ESD). Such model allow us to understand how some clinical and histopatological features are related to the illnesses. The dataset that was used contains records on patients with one out of six skin diseases; for more details please read /project/data/dermatology.names. The original dataset was gotten from "https://archive.ics.uci.edu/ml/datasets/Dermatology" and I included a paper where you can see how this dataset was originally used.
+All this is located in the project folder.
