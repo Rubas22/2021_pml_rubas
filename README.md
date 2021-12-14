@@ -5,13 +5,13 @@ All progress is going to be saved here.
 For this course, we follow the book: C. Muller, Andreas and Guido, Sarah. "Introduction to Machine Learning with Python". United States of America., O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472., October 2016.
 
 In order to run the code you'll need some libraries. You can run:  
-` pip install numpy scipy matplotlib ipython scikit-learn pandas`   
-"pip install mglearn"
+`pip install numpy scipy matplotlib ipython scikit-learn pandas`  
+`pip install mglearn`  
 in your terminal to set up the necessary requirements.
 
 To see the tree.dot documents generated in project/erythemato_squamous_analysis.ipynb it is necessary to do:  
-"pip install graphviz"  
-"sudo apt-get install graphviz"
+`pip install graphviz`  
+`sudo apt-get install graphviz`
 
 All files have been run and tested with Pyhton 3.8.10
 
